@@ -1,0 +1,18 @@
+<div class="form-container">
+  <h2>Async Message Orchestrator</h2>
+
+  <form [formGroup]="messageForm" (ngSubmit)="onSubmit()">
+    <textarea
+      formControlName="message"
+      rows="5"
+      placeholder="Type your message here...">
+    </textarea>
+
+    <button type="submit" [disabled]="isSending || messageForm.invalid">
+      {{ isSending ? 'Sending...' : 'Send' }}
+    </button>
+  </form>
+
+  <p class="success" *ngIf="successMessage">{{ successMessage }}</p>
+  <p class="error" *ngIf="errorMessage">{{ errorMessage }}</p>
+</div>

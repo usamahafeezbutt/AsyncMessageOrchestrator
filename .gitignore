@@ -361,3 +361,5 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/src/WebApi/AsyncMessageOrchestrator.WebApi/Client/async-message-orchestrator-client/.angular/cache/20.2.2/async-message-orchestrator-client
+/src/WebApi/AsyncMessageOrchestrator.WebApi/Client/async-message-orchestrator-client/.vscode
