@@ -1,0 +1,6 @@
+@AsyncMessageOrchestrator.WebApi_HostAddress = http://localhost:5250
+
+GET {{AsyncMessageOrchestrator.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
